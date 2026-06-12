@@ -1,0 +1,301 @@
+drug_name,uses,side_effects,warnings
+Alprabarbital,High cholesterol,"Fatigue, Dizziness, Blurred vision",Hypersensitivity reactions possible
+Alpracaine,Anticoagulation,"Headache, Nausea","Hypersensitivity reactions possible, Risk of bleeding with anticoagulants"
+Alpracillin,"Asthma, Epilepsy","Constipation, Insomnia","May interact with alcohol, Monitor blood glucose levels"
+Alprafen,Pain relief,"Palpitations, Nausea",Caution in liver impairment
+Alpragliflozin,"Acne, Allergic rhinitis","Palpitations, Blurred vision, Fatigue","Monitor blood glucose levels, Use lowest effective dose"
+Alpragliptin,"Heart failure, Arthritis inflammation","Abdominal pain, Blurred vision, Rash, Tremor",Check for drug–drug interactions
+Alpramycin,Epilepsy,"Blurred vision, Diarrhea, Rash, Muscle pain","Monitor blood glucose levels, Use lowest effective dose"
+Alpraolol,Immunosuppression,"Photosensitivity, Weight gain, Constipation, Muscle pain","Monitor blood glucose levels, Hypersensitivity reactions possible"
+Alprasartan,Immunosuppression,"Nausea, Photosensitivity, Vomiting, Tremor","Hypersensitivity reactions possible, Risk of bleeding with anticoagulants"
+Amlodibarbital,"COPD, Arthritis inflammation","Abdominal pain, Fatigue, Dry mouth, Nausea","Monitor blood pressure, Not for pediatric use without advice"
+Amlodicaine,"Dermatitis, Anxiety disorders","Tremor, Abdominal pain, Insomnia","Avoid overdose, Hypersensitivity reactions possible"
+Amlodidazole,"Heart failure, Fever reduction","Dry mouth, Drowsiness","Avoid overdose, Caution in liver impairment"
+Amlodiformin,Acne,"Insomnia, Vomiting, Dizziness","Caution in liver impairment, Monitor blood glucose levels"
+Amlodimab,"Gastric ulcer, Anticoagulation","Dry mouth, Blurred vision, Dizziness, Palpitations",Caution in renal impairment
+Amlodimycin,"Dermatitis, Arthritis inflammation","Headache, Constipation",Monitor blood glucose levels
+Amlodinib,"Allergic rhinitis, Migraine","Tremor, Dizziness, Palpitations, Photosensitivity","Avoid overdose, Avoid in pregnancy unless prescribed"
+Amlodistatin,GERD,"Diarrhea, Headache, Fatigue, Tremor",Not for pediatric use without advice
+Amlodizepam,Viral infections,"Weight gain, Constipation, Headache, Fatigue",Monitor blood glucose levels
+Amoxiazole,Allergic rhinitis,"Dizziness, Tremor","May interact with alcohol, Monitor blood pressure"
+Amoxibarbital,"Immunosuppression, Stroke prevention","Vomiting, Drowsiness",Check for drug–drug interactions
+Amoxicaine,"Thyroid disorders, Bacterial infections","Blurred vision, Tremor, Rash",Avoid in pregnancy unless prescribed
+Amoxifen,"Allergic rhinitis, Chemotherapy support","Vomiting, Insomnia","Caution in renal impairment, Monitor blood glucose levels"
+Amoxigliptin,Anxiety disorders,"Photosensitivity, Constipation, Dizziness",Not for pediatric use without advice
+Amoximycin,Type 2 diabetes,"Dizziness, Photosensitivity, Tremor",Monitor blood pressure
+Amoxipine,"Bacterial infections, GERD","Blurred vision, Diarrhea, Insomnia",Hypersensitivity reactions possible
+Amoxisartan,"Hypertension, High cholesterol","Palpitations, Rash, Nausea, Abdominal pain",Caution in liver impairment
+Amoxixetine,"Anticoagulation, Viral infections","Fatigue, Drowsiness",Hypersensitivity reactions possible
+Atorvaazole,Stroke prevention,"Weight gain, Photosensitivity, Nausea","Risk of bleeding with anticoagulants, May cause drowsiness; avoid driving"
+Atorvabarbital,Arthritis inflammation,"Abdominal pain, Headache, Dry mouth, Photosensitivity","Avoid overdose, Monitor blood glucose levels"
+Atorvacillin,"Type 2 diabetes, Depression","Rash, Vomiting, Palpitations","Monitor blood glucose levels, Risk of bleeding with anticoagulants"
+Atorvamycin,High cholesterol,"Diarrhea, Dizziness, Rash",Check for drug–drug interactions
+Atorvasartan,"Bacterial infections, Hypertension","Vomiting, Insomnia, Weight gain, Palpitations",Use lowest effective dose
+Atorvavir,"Dermatitis, Migraine","Headache, Vomiting",Hypersensitivity reactions possible
+Atorvazepam,"Gastric ulcer, Bacterial infections","Dizziness, Insomnia, Blurred vision",May cause drowsiness; avoid driving
+Azicaine,"Chemotherapy support, Allergic rhinitis","Blurred vision, Diarrhea, Tremor, Nausea",Avoid in pregnancy unless prescribed
+Azicillin,"Fever reduction, Acne","Drowsiness, Nausea, Weight gain",Not for pediatric use without advice
+Azidazole,"Immunosuppression, Type 2 diabetes","Constipation, Dizziness",Hypersensitivity reactions possible
+Aziformin,Allergic rhinitis,"Drowsiness, Constipation, Fatigue, Blurred vision",Avoid in pregnancy unless prescribed
+Azigliflozin,"Migraine, Dermatitis","Dry mouth, Diarrhea, Palpitations, Rash",Check for drug–drug interactions
+Azinib,"Chemotherapy support, Stroke prevention","Weight gain, Abdominal pain",May cause drowsiness; avoid driving
+Azipine,"Gastric ulcer, Type 2 diabetes","Weight gain, Vomiting",Risk of bleeding with anticoagulants
+Azipril,GERD,"Rash, Tremor, Vomiting","Avoid in pregnancy unless prescribed, Hypersensitivity reactions possible"
+Azizepam,Thyroid disorders,"Headache, Muscle pain, Fatigue",Monitor blood pressure
+Cefbarbital,Thyroid disorders,"Insomnia, Muscle pain, Palpitations, Abdominal pain","Not for pediatric use without advice, Hypersensitivity reactions possible"
+Cefcaine,Immunosuppression,"Drowsiness, Photosensitivity, Insomnia, Muscle pain",May interact with alcohol
+Ceffen,"Gastric ulcer, Fungal infections","Weight gain, Abdominal pain, Fatigue",Hypersensitivity reactions possible
+Cefgliflozin,"Chemotherapy support, GERD","Fatigue, Muscle pain, Abdominal pain",Caution in liver impairment
+Cefgliptin,"GERD, Heart failure","Dry mouth, Rash","Caution in renal impairment, Monitor blood pressure"
+Cefpine,"Bacterial infections, Anxiety disorders","Abdominal pain, Muscle pain, Diarrhea, Fatigue","Monitor blood pressure, Check for drug–drug interactions"
+Cefstatin,Depression,"Diarrhea, Vomiting, Insomnia, Muscle pain",Avoid in pregnancy unless prescribed
+Cetibarbital,"Chronic kidney disease, Type 2 diabetes","Fatigue, Palpitations",Not for pediatric use without advice
+Ceticaine,Pain relief,"Rash, Palpitations, Nausea","Avoid in pregnancy unless prescribed, Hypersensitivity reactions possible"
+Cetidazole,"Immunosuppression, GERD","Drowsiness, Palpitations, Vomiting, Abdominal pain",Avoid in pregnancy unless prescribed
+Cetifen,Type 2 diabetes,"Tremor, Dizziness",Check for drug–drug interactions
+Cetiformin,"Migraine, Anticoagulation","Blurred vision, Weight gain",Monitor blood glucose levels
+Cetigliflozin,"Migraine, Anxiety disorders","Dizziness, Vomiting, Insomnia",May interact with alcohol
+Cetigliptin,"Pain relief, Immunosuppression","Muscle pain, Insomnia, Blurred vision, Constipation","Monitor blood glucose levels, Avoid in pregnancy unless prescribed"
+Cetimycin,"Anxiety disorders, Fever reduction","Fatigue, Constipation","Caution in liver impairment, Avoid in pregnancy unless prescribed"
+Cetisartan,Bacterial infections,"Photosensitivity, Abdominal pain, Constipation, Palpitations","Monitor blood glucose levels, May interact with alcohol"
+Cetistatin,"COPD, Heart failure","Photosensitivity, Vomiting","May cause drowsiness; avoid driving, Caution in liver impairment"
+Cetixetine,Viral infections,"Tremor, Fatigue, Drowsiness, Constipation","Monitor blood glucose levels, Check for drug–drug interactions"
+Ciprobarbital,"COPD, Gastric ulcer","Blurred vision, Dizziness","Monitor blood pressure, Caution in liver impairment"
+Ciprocaine,"Immunosuppression, Anxiety disorders","Diarrhea, Constipation, Insomnia, Dizziness","Avoid in pregnancy unless prescribed, Check for drug–drug interactions"
+Ciprogliflozin,Stroke prevention,"Dizziness, Abdominal pain","May cause drowsiness; avoid driving, Avoid in pregnancy unless prescribed"
+Ciprogliptin,COPD,"Weight gain, Diarrhea, Rash, Fatigue","Check for drug–drug interactions, Monitor blood pressure"
+Cipromab,"Allergic rhinitis, Fungal infections","Vomiting, Drowsiness",Hypersensitivity reactions possible
+Cipromycin,"GERD, Allergic rhinitis","Tremor, Photosensitivity, Weight gain, Palpitations","Caution in renal impairment, Caution in liver impairment"
+Cipropril,"Type 2 diabetes, Acne","Nausea, Tremor, Blurred vision, Diarrhea","Monitor blood glucose levels, Not for pediatric use without advice"
+Ciprovir,Dermatitis,"Weight gain, Dry mouth",Avoid overdose
+Clariazole,COPD,"Vomiting, Dizziness, Diarrhea, Nausea","Not for pediatric use without advice, Risk of bleeding with anticoagulants"
+Claricaine,"Hypertension, Gastric ulcer","Dry mouth, Insomnia, Blurred vision, Weight gain",Caution in renal impairment
+Claricillin,Arthritis inflammation,"Insomnia, Muscle pain, Palpitations, Fatigue","May interact with alcohol, May cause drowsiness; avoid driving"
+Claridazole,"Arthritis inflammation, Migraine","Abdominal pain, Rash, Tremor, Dizziness","May interact with alcohol, Check for drug–drug interactions"
+Clarifen,Hypertension,"Headache, Weight gain, Nausea, Abdominal pain","Not for pediatric use without advice, Use lowest effective dose"
+Clariformin,"Heart failure, Chronic kidney disease","Constipation, Dry mouth, Vomiting, Palpitations",Caution in renal impairment
+Clarinib,Allergic rhinitis,"Muscle pain, Photosensitivity","Check for drug–drug interactions, Caution in renal impairment"
+Claripril,"Gastric ulcer, Acne","Tremor, Dizziness, Nausea, Fatigue","Caution in liver impairment, Monitor blood pressure"
+Clarisartan,"Hypertension, Gastric ulcer","Abdominal pain, Nausea, Photosensitivity, Rash",Monitor blood glucose levels
+Clarizepam,"Epilepsy, Anticoagulation","Constipation, Diarrhea",Monitor blood pressure
+Diazeazole,"Fever reduction, Pain relief","Diarrhea, Rash, Dry mouth",May interact with alcohol
+Diazecaine,"Epilepsy, Depression","Rash, Blurred vision, Drowsiness",Use lowest effective dose
+Diazeformin,Type 2 diabetes,"Constipation, Drowsiness, Photosensitivity, Dizziness","May interact with alcohol, Check for drug–drug interactions"
+Diazenib,Acne,"Photosensitivity, Blurred vision, Nausea, Diarrhea",May interact with alcohol
+Diazeolol,Fungal infections,"Dizziness, Dry mouth, Constipation, Palpitations",Monitor blood pressure
+Diazepine,"Hypertension, GERD","Rash, Dry mouth",Monitor blood glucose levels
+Diazevir,"Anxiety disorders, Anticoagulation","Nausea, Insomnia, Fatigue","Hypersensitivity reactions possible, Caution in renal impairment"
+Dolobarbital,Fever reduction,"Rash, Blurred vision, Diarrhea, Weight gain","Check for drug–drug interactions, Caution in liver impairment"
+Dolocaine,Type 2 diabetes,"Insomnia, Nausea, Tremor, Dizziness","Monitor blood glucose levels, Avoid overdose"
+Dolocillin,Heart failure,"Rash, Palpitations",Avoid overdose
+Dolodazole,"Immunosuppression, Fungal infections","Vomiting, Blurred vision, Insomnia, Muscle pain",Avoid in pregnancy unless prescribed
+Dolofen,Arthritis inflammation,"Vomiting, Dry mouth",May interact with alcohol
+Dologliptin,"High cholesterol, Pain relief","Abdominal pain, Tremor","May interact with alcohol, Hypersensitivity reactions possible"
+Dolomab,Acne,"Nausea, Blurred vision, Dizziness",May cause drowsiness; avoid driving
+Doloolol,"Pain relief, Viral infections","Fatigue, Constipation, Insomnia","Caution in liver impairment, May cause drowsiness; avoid driving"
+Dolosartan,"Fungal infections, Chronic kidney disease","Drowsiness, Blurred vision, Headache","Caution in liver impairment, Use lowest effective dose"
+Dolozepam,"Depression, Allergic rhinitis","Photosensitivity, Weight gain, Constipation, Diarrhea","Use lowest effective dose, Caution in renal impairment"
+Escitacillin,"Migraine, Acne","Muscle pain, Dry mouth, Abdominal pain",Caution in liver impairment
+Escitadazole,COPD,"Vomiting, Weight gain, Nausea","May interact with alcohol, Monitor blood glucose levels"
+Escitafen,"Asthma, Acne","Tremor, Abdominal pain, Diarrhea","Monitor blood pressure, Check for drug–drug interactions"
+Escitagliptin,"Anxiety disorders, Epilepsy","Drowsiness, Nausea, Muscle pain, Photosensitivity",May cause drowsiness; avoid driving
+Escitamab,"Asthma, Bacterial infections","Fatigue, Abdominal pain, Muscle pain",May cause drowsiness; avoid driving
+Escitamycin,Fever reduction,"Headache, Rash, Constipation, Diarrhea","Caution in liver impairment, Check for drug–drug interactions"
+Escitanib,Stroke prevention,"Abdominal pain, Dizziness",Avoid in pregnancy unless prescribed
+Escitapril,GERD,"Headache, Abdominal pain","Avoid in pregnancy unless prescribed, Caution in liver impairment"
+Escitasartan,"Migraine, GERD","Constipation, Muscle pain, Insomnia",Avoid in pregnancy unless prescribed
+Escitavir,"Gastric ulcer, Anticoagulation","Vomiting, Rash, Diarrhea, Palpitations","Caution in renal impairment, Check for drug–drug interactions"
+Escitaxetine,Stroke prevention,"Constipation, Muscle pain, Blurred vision","Hypersensitivity reactions possible, Caution in liver impairment"
+Fexoazole,Pain relief,"Photosensitivity, Blurred vision, Dry mouth, Weight gain",Monitor blood pressure
+Fexobarbital,Fungal infections,"Headache, Vomiting, Palpitations, Blurred vision",Avoid overdose
+Fexodazole,Chronic kidney disease,"Nausea, Tremor",May cause drowsiness; avoid driving
+Fexoolol,"Fever reduction, Arthritis inflammation","Constipation, Dizziness, Diarrhea",Risk of bleeding with anticoagulants
+Fexopine,"Viral infections, Allergic rhinitis","Constipation, Vomiting, Insomnia",Not for pediatric use without advice
+Fexopril,Immunosuppression,"Weight gain, Nausea, Insomnia",May cause drowsiness; avoid driving
+Fexosartan,Chronic kidney disease,"Blurred vision, Insomnia, Dry mouth",Monitor blood pressure
+Fexostatin,Immunosuppression,"Palpitations, Insomnia, Photosensitivity","Hypersensitivity reactions possible, Avoid overdose"
+Fexoxetine,"Arthritis inflammation, Stroke prevention","Blurred vision, Rash",May cause drowsiness; avoid driving
+Fexozepam,"Anxiety disorders, Gastric ulcer","Constipation, Fatigue, Nausea",Caution in liver impairment
+Fluazole,"Gastric ulcer, Acne","Palpitations, Drowsiness","Hypersensitivity reactions possible, May interact with alcohol"
+Flubarbital,"High cholesterol, Viral infections","Vomiting, Tremor, Blurred vision, Constipation","Monitor blood pressure, Caution in renal impairment"
+Flucaine,Bacterial infections,"Abdominal pain, Insomnia, Rash",Caution in renal impairment
+Flucillin,Viral infections,"Drowsiness, Rash, Insomnia, Tremor","Caution in liver impairment, Risk of bleeding with anticoagulants"
+Fludazole,Type 2 diabetes,"Dizziness, Dry mouth, Constipation, Nausea","May interact with alcohol, Monitor blood glucose levels"
+Flufen,GERD,"Abdominal pain, Nausea","Hypersensitivity reactions possible, Caution in renal impairment"
+Flugliptin,"Acne, Dermatitis","Constipation, Dry mouth, Diarrhea, Dizziness",Caution in liver impairment
+Flumab,"Allergic rhinitis, COPD","Muscle pain, Dry mouth, Blurred vision, Tremor","Risk of bleeding with anticoagulants, Monitor blood glucose levels"
+Flumycin,"Migraine, COPD","Abdominal pain, Dizziness, Weight gain",May interact with alcohol
+Fluolol,"Anticoagulation, Hypertension","Headache, Dry mouth, Weight gain, Nausea",Caution in liver impairment
+Flupril,"Immunosuppression, Anxiety disorders","Rash, Nausea, Constipation, Vomiting",Monitor blood pressure
+Flusartan,Bacterial infections,"Nausea, Dizziness, Abdominal pain",May cause drowsiness; avoid driving
+Flustatin,"Allergic rhinitis, High cholesterol","Rash, Dry mouth, Diarrhea, Drowsiness",May cause drowsiness; avoid driving
+Fluxetine,"Anticoagulation, Dermatitis","Headache, Drowsiness","Avoid in pregnancy unless prescribed, May interact with alcohol"
+Gabaazole,"Arthritis inflammation, Depression","Drowsiness, Abdominal pain, Headache",Check for drug–drug interactions
+Gababarbital,Immunosuppression,"Vomiting, Drowsiness, Headache","Caution in liver impairment, Check for drug–drug interactions"
+Gabacillin,Depression,"Drowsiness, Vomiting, Nausea, Dry mouth","Risk of bleeding with anticoagulants, Caution in liver impairment"
+Gabadazole,Thyroid disorders,"Weight gain, Photosensitivity","Risk of bleeding with anticoagulants, Monitor blood glucose levels"
+Gabafen,"Viral infections, Fungal infections","Headache, Photosensitivity","Not for pediatric use without advice, Check for drug–drug interactions"
+Gabaformin,"Migraine, COPD","Dizziness, Nausea","May cause drowsiness; avoid driving, Avoid in pregnancy unless prescribed"
+Gabamab,Anticoagulation,"Diarrhea, Blurred vision",Not for pediatric use without advice
+Gabanib,Heart failure,"Constipation, Nausea, Tremor",Use lowest effective dose
+Gabaolol,Viral infections,"Nausea, Photosensitivity, Headache, Diarrhea","Use lowest effective dose, May interact with alcohol"
+Gabapine,Asthma,"Photosensitivity, Muscle pain, Tremor, Weight gain","Caution in liver impairment, Avoid in pregnancy unless prescribed"
+Gabapril,Immunosuppression,"Insomnia, Weight gain, Diarrhea, Muscle pain",May cause drowsiness; avoid driving
+Gabasartan,"Thyroid disorders, Epilepsy","Constipation, Muscle pain",Monitor blood glucose levels
+Gabavir,Epilepsy,"Blurred vision, Vomiting, Abdominal pain, Rash",Hypersensitivity reactions possible
+Gabaxetine,Anxiety disorders,"Abdominal pain, Blurred vision, Tremor, Constipation",Hypersensitivity reactions possible
+Gabazepam,"GERD, Stroke prevention","Vomiting, Dizziness, Blurred vision, Abdominal pain",Use lowest effective dose
+Glimeazole,"Thyroid disorders, Hypertension","Abdominal pain, Rash, Muscle pain, Nausea","Not for pediatric use without advice, May cause drowsiness; avoid driving"
+Glimebarbital,"Dermatitis, Chemotherapy support","Weight gain, Diarrhea, Headache, Tremor",Avoid in pregnancy unless prescribed
+Glimecaine,"Epilepsy, Depression","Dry mouth, Weight gain, Tremor","May cause drowsiness; avoid driving, Monitor blood pressure"
+Glimecillin,"Acne, Viral infections","Nausea, Drowsiness, Tremor","Caution in renal impairment, Avoid overdose"
+Glimefen,High cholesterol,"Nausea, Constipation, Dizziness, Photosensitivity","May interact with alcohol, Caution in liver impairment"
+Glimemab,"Anticoagulation, Hypertension","Blurred vision, Insomnia",Use lowest effective dose
+Glimeolol,Pain relief,"Nausea, Rash",Use lowest effective dose
+Glimepril,Anxiety disorders,"Blurred vision, Diarrhea, Drowsiness, Palpitations","Monitor blood glucose levels, Not for pediatric use without advice"
+Glimestatin,"COPD, Stroke prevention","Constipation, Diarrhea","Check for drug–drug interactions, Avoid in pregnancy unless prescribed"
+Glimezepam,"Bacterial infections, Dermatitis","Nausea, Vomiting, Diarrhea","Caution in renal impairment, May cause drowsiness; avoid driving"
+Hydroazole,Acne,"Drowsiness, Fatigue","Check for drug–drug interactions, Caution in liver impairment"
+Hydrobarbital,Anticoagulation,"Dizziness, Palpitations, Fatigue, Rash",Check for drug–drug interactions
+Hydrocaine,Anxiety disorders,"Rash, Insomnia, Weight gain","Monitor blood pressure, Avoid in pregnancy unless prescribed"
+Hydrocillin,"Fungal infections, Hypertension","Fatigue, Dry mouth, Headache",May cause drowsiness; avoid driving
+Hydrodazole,Dermatitis,"Dizziness, Tremor, Constipation","Monitor blood pressure, Risk of bleeding with anticoagulants"
+Hydrogliflozin,Stroke prevention,"Tremor, Constipation, Palpitations",Avoid overdose
+Hydrogliptin,Anticoagulation,"Photosensitivity, Vomiting",Monitor blood pressure
+Hydromab,Type 2 diabetes,"Photosensitivity, Palpitations, Diarrhea",Avoid in pregnancy unless prescribed
+Hydromycin,Epilepsy,"Blurred vision, Drowsiness","Use lowest effective dose, Hypersensitivity reactions possible"
+Hydronib,Bacterial infections,"Headache, Palpitations",May cause drowsiness; avoid driving
+Hydropril,Anticoagulation,"Photosensitivity, Dizziness, Insomnia, Diarrhea",Hypersensitivity reactions possible
+Hydrosartan,"Anticoagulation, Type 2 diabetes","Dry mouth, Headache, Abdominal pain, Blurred vision",Avoid in pregnancy unless prescribed
+Ibuazole,Anticoagulation,"Blurred vision, Photosensitivity, Headache",Caution in renal impairment
+Ibubarbital,Anxiety disorders,"Rash, Nausea, Tremor",Check for drug–drug interactions
+Ibucaine,"Stroke prevention, Allergic rhinitis","Blurred vision, Dry mouth, Tremor","May interact with alcohol, Avoid in pregnancy unless prescribed"
+Ibudazole,COPD,"Constipation, Tremor",Check for drug–drug interactions
+Ibugliptin,Viral infections,"Vomiting, Rash, Blurred vision, Abdominal pain","May cause drowsiness; avoid driving, Not for pediatric use without advice"
+Ibumycin,"Epilepsy, GERD","Dizziness, Weight gain","Monitor blood glucose levels, May cause drowsiness; avoid driving"
+Ibusartan,GERD,"Tremor, Dry mouth, Insomnia","May interact with alcohol, Check for drug–drug interactions"
+Ibuvir,"Hypertension, Epilepsy","Muscle pain, Blurred vision, Headache",Hypersensitivity reactions possible
+Ibuxetine,COPD,"Constipation, Dizziness","Avoid overdose, Not for pediatric use without advice"
+Insuazole,"Bacterial infections, Depression","Diarrhea, Dizziness, Blurred vision, Abdominal pain",Caution in renal impairment
+Insucillin,Chemotherapy support,"Muscle pain, Diarrhea","May cause drowsiness; avoid driving, May interact with alcohol"
+Insuformin,Immunosuppression,"Dry mouth, Fatigue",Monitor blood glucose levels
+Insupril,Migraine,"Rash, Drowsiness","Caution in renal impairment, Hypersensitivity reactions possible"
+Insusartan,Anxiety disorders,"Dry mouth, Constipation, Abdominal pain, Tremor","Hypersensitivity reactions possible, Use lowest effective dose"
+Insustatin,Epilepsy,"Vomiting, Palpitations, Rash, Dizziness",Check for drug–drug interactions
+Insuzepam,Acne,"Nausea, Drowsiness, Fatigue, Dry mouth",Use lowest effective dose
+Levofen,"Pain relief, Immunosuppression","Palpitations, Diarrhea, Rash, Weight gain",Monitor blood pressure
+Levoformin,Anxiety disorders,"Photosensitivity, Nausea",Check for drug–drug interactions
+Levomab,Type 2 diabetes,"Muscle pain, Abdominal pain, Dry mouth, Dizziness",Check for drug–drug interactions
+Levomycin,"Thyroid disorders, Asthma","Drowsiness, Weight gain, Dizziness","May interact with alcohol, Risk of bleeding with anticoagulants"
+Levonib,"Chemotherapy support, Thyroid disorders","Vomiting, Photosensitivity","Hypersensitivity reactions possible, Use lowest effective dose"
+Levoolol,"Depression, Pain relief","Nausea, Tremor, Rash",May interact with alcohol
+Levopine,"Stroke prevention, COPD","Insomnia, Fatigue, Vomiting",Monitor blood pressure
+Levopril,Immunosuppression,"Fatigue, Muscle pain, Tremor, Constipation",Caution in liver impairment
+Levosartan,"Type 2 diabetes, GERD","Photosensitivity, Blurred vision, Palpitations, Muscle pain","Avoid overdose, Monitor blood glucose levels"
+Levoxetine,Thyroid disorders,"Rash, Weight gain, Muscle pain","May cause drowsiness; avoid driving, Caution in liver impairment"
+Lorabarbital,"Chemotherapy support, Dermatitis","Weight gain, Palpitations","Not for pediatric use without advice, Check for drug–drug interactions"
+Loracaine,"Allergic rhinitis, Anxiety disorders","Abdominal pain, Palpitations, Tremor, Nausea","Check for drug–drug interactions, Monitor blood pressure"
+Loracillin,"Arthritis inflammation, High cholesterol","Abdominal pain, Vomiting",Risk of bleeding with anticoagulants
+Loradazole,Migraine,"Tremor, Insomnia","Not for pediatric use without advice, May interact with alcohol"
+Lorafen,"Dermatitis, Acne","Constipation, Insomnia",Check for drug–drug interactions
+Loragliptin,"Viral infections, Immunosuppression","Rash, Nausea, Tremor","Risk of bleeding with anticoagulants, May cause drowsiness; avoid driving"
+Loramab,"Arthritis inflammation, Dermatitis","Diarrhea, Palpitations","Use lowest effective dose, Monitor blood glucose levels"
+Loramycin,Heart failure,"Photosensitivity, Fatigue","Avoid in pregnancy unless prescribed, Caution in liver impairment"
+Loranib,COPD,"Tremor, Photosensitivity","Use lowest effective dose, Check for drug–drug interactions"
+Loraolol,Bacterial infections,"Blurred vision, Drowsiness, Constipation, Photosensitivity",Avoid in pregnancy unless prescribed
+Lorapine,Thyroid disorders,"Palpitations, Insomnia, Rash, Diarrhea","Avoid overdose, Monitor blood pressure"
+Lorapril,Heart failure,"Diarrhea, Vomiting","Caution in renal impairment, May cause drowsiness; avoid driving"
+Lorasartan,Gastric ulcer,"Rash, Drowsiness, Dry mouth, Constipation","Monitor blood glucose levels, Check for drug–drug interactions"
+Lorastatin,Type 2 diabetes,"Drowsiness, Weight gain, Nausea","Avoid in pregnancy unless prescribed, May cause drowsiness; avoid driving"
+Loravir,Chronic kidney disease,"Nausea, Weight gain",Monitor blood glucose levels
+Loraxetine,Thyroid disorders,"Dry mouth, Photosensitivity, Dizziness","Avoid overdose, Check for drug–drug interactions"
+Metforazole,"COPD, Chemotherapy support","Insomnia, Abdominal pain, Headache",Avoid in pregnancy unless prescribed
+Metforcaine,"Epilepsy, Depression","Drowsiness, Photosensitivity","May interact with alcohol, May cause drowsiness; avoid driving"
+Metfordazole,Anticoagulation,"Palpitations, Insomnia, Muscle pain, Dry mouth","Caution in liver impairment, Avoid in pregnancy unless prescribed"
+Metforformin,Anxiety disorders,"Diarrhea, Nausea, Rash, Blurred vision","Check for drug–drug interactions, Not for pediatric use without advice"
+Metforgliflozin,"Dermatitis, Heart failure","Weight gain, Dizziness, Abdominal pain, Drowsiness","Caution in renal impairment, Monitor blood pressure"
+Metforgliptin,Anxiety disorders,"Blurred vision, Photosensitivity, Constipation","Monitor blood pressure, May interact with alcohol"
+Metformab,Acne,"Headache, Tremor, Dizziness, Nausea","Avoid overdose, May interact with alcohol"
+Metforolol,Chemotherapy support,"Vomiting, Rash","Monitor blood glucose levels, Avoid in pregnancy unless prescribed"
+Metforstatin,"Fever reduction, GERD","Blurred vision, Drowsiness, Dry mouth","Monitor blood glucose levels, May interact with alcohol"
+Metroazole,Chemotherapy support,"Rash, Nausea, Abdominal pain",Monitor blood pressure
+Metrobarbital,High cholesterol,"Dry mouth, Drowsiness","Caution in renal impairment, May interact with alcohol"
+Metrocaine,Thyroid disorders,"Drowsiness, Abdominal pain, Weight gain, Photosensitivity","Check for drug–drug interactions, Monitor blood pressure"
+Metrocillin,"Epilepsy, Asthma","Fatigue, Dry mouth, Muscle pain","Caution in renal impairment, Hypersensitivity reactions possible"
+Metrofen,"Viral infections, Fever reduction","Rash, Drowsiness, Vomiting, Blurred vision",Monitor blood glucose levels
+Metroformin,"GERD, Dermatitis","Diarrhea, Blurred vision",Check for drug–drug interactions
+Metrogliptin,"Anticoagulation, Heart failure","Fatigue, Drowsiness","Use lowest effective dose, Check for drug–drug interactions"
+Metromab,Arthritis inflammation,"Rash, Palpitations, Dizziness, Fatigue",Avoid overdose
+Metroolol,"Viral infections, Hypertension","Dry mouth, Vomiting, Palpitations, Dizziness",Monitor blood pressure
+Metropine,"Anticoagulation, Chemotherapy support","Dry mouth, Weight gain","Use lowest effective dose, Monitor blood glucose levels"
+Metropril,Stroke prevention,"Nausea, Blurred vision, Photosensitivity","Use lowest effective dose, Avoid overdose"
+Metrostatin,Asthma,"Dry mouth, Nausea","Check for drug–drug interactions, Not for pediatric use without advice"
+Metrovir,Heart failure,"Constipation, Vomiting","Avoid in pregnancy unless prescribed, Not for pediatric use without advice"
+Montnib,Depression,"Constipation, Photosensitivity, Headache",Hypersensitivity reactions possible
+Montolol,"Chronic kidney disease, Viral infections","Abdominal pain, Photosensitivity, Palpitations, Blurred vision",Monitor blood glucose levels
+Montpine,"Dermatitis, Stroke prevention","Dizziness, Weight gain, Muscle pain","Use lowest effective dose, Monitor blood glucose levels"
+Montsartan,"Chronic kidney disease, COPD","Blurred vision, Drowsiness",Avoid in pregnancy unless prescribed
+Montvir,Hypertension,"Nausea, Fatigue",May interact with alcohol
+Montxetine,"Thyroid disorders, Allergic rhinitis","Drowsiness, Headache",Avoid in pregnancy unless prescribed
+Montzepam,Viral infections,"Blurred vision, Palpitations, Dizziness, Weight gain",Monitor blood pressure
+Omeazole,"Anticoagulation, Anxiety disorders","Dry mouth, Diarrhea","Check for drug–drug interactions, Monitor blood glucose levels"
+Omeformin,Pain relief,"Fatigue, Nausea","Monitor blood pressure, Not for pediatric use without advice"
+Omegliflozin,"GERD, Anxiety disorders","Drowsiness, Headache, Vomiting",Use lowest effective dose
+Omemycin,"Arthritis inflammation, Fungal infections","Tremor, Fatigue, Photosensitivity","Caution in renal impairment, Avoid in pregnancy unless prescribed"
+Omeolol,"COPD, Pain relief","Blurred vision, Palpitations, Fatigue","Not for pediatric use without advice, Avoid in pregnancy unless prescribed"
+Omepril,Arthritis inflammation,"Abdominal pain, Photosensitivity, Dry mouth",May cause drowsiness; avoid driving
+Omesartan,Hypertension,"Insomnia, Palpitations, Photosensitivity",Avoid in pregnancy unless prescribed
+Omestatin,Allergic rhinitis,"Constipation, Palpitations, Weight gain, Tremor","Risk of bleeding with anticoagulants, Check for drug–drug interactions"
+Omevir,Migraine,"Vomiting, Fatigue",Avoid in pregnancy unless prescribed
+Omexetine,"Chronic kidney disease, Arthritis inflammation","Weight gain, Tremor, Photosensitivity","May cause drowsiness; avoid driving, Not for pediatric use without advice"
+Pantcaine,"Arthritis inflammation, Asthma","Photosensitivity, Abdominal pain",Avoid in pregnancy unless prescribed
+Pantcillin,Chronic kidney disease,"Muscle pain, Dizziness","May interact with alcohol, Risk of bleeding with anticoagulants"
+Pantfen,Viral infections,"Rash, Palpitations, Dry mouth","Avoid overdose, Hypersensitivity reactions possible"
+Pantformin,"Acne, Fever reduction","Vomiting, Muscle pain","Not for pediatric use without advice, Risk of bleeding with anticoagulants"
+Pantgliflozin,"Stroke prevention, COPD","Vomiting, Constipation, Dry mouth, Rash","May interact with alcohol, Caution in liver impairment"
+Pantpine,High cholesterol,"Drowsiness, Photosensitivity, Blurred vision, Rash","Monitor blood glucose levels, Hypersensitivity reactions possible"
+Pantsartan,Hypertension,"Dizziness, Rash, Drowsiness, Tremor","Avoid overdose, Use lowest effective dose"
+Pantstatin,Anticoagulation,"Headache, Tremor, Palpitations","Use lowest effective dose, Caution in renal impairment"
+Pantvir,"GERD, COPD","Drowsiness, Fatigue, Weight gain, Rash","May cause drowsiness; avoid driving, Avoid in pregnancy unless prescribed"
+Pantxetine,"Asthma, Viral infections","Insomnia, Weight gain, Blurred vision, Photosensitivity","Avoid overdose, Hypersensitivity reactions possible"
+Paraazole,Migraine,"Fatigue, Muscle pain, Rash",May cause drowsiness; avoid driving
+Paracaine,Migraine,"Diarrhea, Constipation, Fatigue, Weight gain",Caution in liver impairment
+Paranib,Hypertension,"Fatigue, Abdominal pain, Constipation, Blurred vision",Monitor blood pressure
+Paraolol,Thyroid disorders,"Dizziness, Rash, Palpitations, Abdominal pain",Use lowest effective dose
+Parapril,"Immunosuppression, Depression","Tremor, Rash","Risk of bleeding with anticoagulants, Monitor blood glucose levels"
+Paravir,"Migraine, Bacterial infections","Muscle pain, Constipation, Palpitations","Monitor blood glucose levels, Caution in liver impairment"
+Raniazole,"Bacterial infections, Thyroid disorders","Blurred vision, Abdominal pain, Vomiting, Tremor","Caution in liver impairment, Monitor blood glucose levels"
+Ranibarbital,Dermatitis,"Muscle pain, Insomnia",Risk of bleeding with anticoagulants
+Ranicillin,Type 2 diabetes,"Muscle pain, Abdominal pain",Avoid overdose
+Ranifen,"Chemotherapy support, GERD","Muscle pain, Photosensitivity","Risk of bleeding with anticoagulants, Check for drug–drug interactions"
+Raniformin,COPD,"Nausea, Muscle pain",Not for pediatric use without advice
+Ranigliflozin,Arthritis inflammation,"Weight gain, Photosensitivity, Constipation",May interact with alcohol
+Ranimab,Hypertension,"Insomnia, Headache, Diarrhea","May cause drowsiness; avoid driving, May interact with alcohol"
+Raniolol,"Allergic rhinitis, Chronic kidney disease","Photosensitivity, Headache, Blurred vision, Insomnia","Avoid overdose, Use lowest effective dose"
+Ranipril,Anxiety disorders,"Blurred vision, Dizziness","Caution in renal impairment, May interact with alcohol"
+Ranivir,"Allergic rhinitis, COPD","Tremor, Rash",Use lowest effective dose
+Ranizepam,Chronic kidney disease,"Muscle pain, Fatigue",Avoid in pregnancy unless prescribed
+Rosubarbital,COPD,"Drowsiness, Headache, Insomnia, Dry mouth",Not for pediatric use without advice
+Rosugliflozin,Anticoagulation,"Photosensitivity, Drowsiness, Diarrhea, Headache","Check for drug–drug interactions, Avoid in pregnancy unless prescribed"
+Rosumab,"Dermatitis, Asthma","Photosensitivity, Dizziness, Palpitations, Dry mouth","Monitor blood pressure, Risk of bleeding with anticoagulants"
+Rosunib,"Heart failure, Asthma","Photosensitivity, Tremor, Dizziness","Hypersensitivity reactions possible, Avoid in pregnancy unless prescribed"
+Rosuolol,"Acne, Pain relief","Tremor, Insomnia, Blurred vision","Monitor blood pressure, May cause drowsiness; avoid driving"
+Rosupine,Acne,"Weight gain, Vomiting","Monitor blood glucose levels, Monitor blood pressure"
+Rosusartan,Immunosuppression,"Palpitations, Blurred vision, Headache",Use lowest effective dose
+Rosustatin,COPD,"Rash, Constipation, Blurred vision, Dry mouth","Caution in liver impairment, Risk of bleeding with anticoagulants"
+Rosuzepam,"Chronic kidney disease, Migraine","Tremor, Drowsiness, Headache",May cause drowsiness; avoid driving
+Sertrafen,"Fungal infections, Chronic kidney disease","Abdominal pain, Nausea, Diarrhea","May cause drowsiness; avoid driving, Caution in renal impairment"
+Sertramab,"Fungal infections, Gastric ulcer","Weight gain, Insomnia","Use lowest effective dose, Not for pediatric use without advice"
+Sertraolol,Viral infections,"Drowsiness, Palpitations, Photosensitivity","Check for drug–drug interactions, Caution in renal impairment"
+Sertrapine,Pain relief,"Nausea, Weight gain, Diarrhea","Avoid overdose, Monitor blood glucose levels"
+Sertrapril,"High cholesterol, Chronic kidney disease","Dizziness, Photosensitivity, Rash","Caution in renal impairment, May cause drowsiness; avoid driving"
+Sertrastatin,Chronic kidney disease,"Dry mouth, Photosensitivity, Muscle pain",Avoid overdose
+Sertrazepam,Allergic rhinitis,"Rash, Fatigue, Dizziness, Insomnia",Hypersensitivity reactions possible
+Telmicillin,Chemotherapy support,"Diarrhea, Headache","Monitor blood glucose levels, Hypersensitivity reactions possible"
+Telmifen,"Viral infections, Anxiety disorders","Abdominal pain, Insomnia, Diarrhea, Palpitations","Check for drug–drug interactions, May interact with alcohol"
+Telminib,"Anticoagulation, COPD","Vomiting, Photosensitivity",Caution in renal impairment
+Telmiolol,"Viral infections, Arthritis inflammation","Palpitations, Muscle pain, Dry mouth, Headache",Check for drug–drug interactions
+Telmistatin,Acne,"Headache, Palpitations, Rash",Caution in liver impairment
+Telmivir,"Gastric ulcer, Bacterial infections","Insomnia, Headache",Caution in liver impairment
+Telmixetine,"High cholesterol, Type 2 diabetes","Photosensitivity, Blurred vision, Nausea, Rash",Avoid in pregnancy unless prescribed
+Telmizepam,"Gastric ulcer, Chronic kidney disease","Nausea, Dry mouth, Abdominal pain","May cause drowsiness; avoid driving, May interact with alcohol"

@@ -1,0 +1,201 @@
+drug_name,review_text,rating,sentiment_label,role
+Escitalopram,Average effectiveness for my symptoms.,4,Neutral,Physician
+Levothyroxine,I felt better within a few days of starting the medicine.,9,Positive,User
+Paracetamol,Very effective treatment with minimal side effects.,8,Positive,Physician
+Ibuprofen,Doctor recommended this and it helped a lot.,7,Positive,Physician
+Pantoprazole,It helped slightly but took time to see results.,4,Neutral,User
+Sertraline,The drug worked but results were moderate.,6,Neutral,Physician
+Ibuprofen,Did not work well for me.,2,Negative,User
+Atorvastatin,I experienced several side effects after taking this.,3,Negative,Physician
+Doxycycline,I experienced several side effects after taking this.,1,Negative,User
+Amlodipine,I had headaches and nausea while using this drug.,3,Negative,Physician
+Montelukast,It worked okay but nothing remarkable.,4,Neutral,User
+Pantoprazole,Very effective treatment with minimal side effects.,9,Positive,Physician
+Amoxicillin,The medication worked very well for my condition.,10,Positive,User
+Amoxicillin,It worked okay but nothing remarkable.,6,Neutral,Physician
+Amoxicillin,The drug worked but results were moderate.,5,Neutral,Physician
+Cetirizine,Very effective treatment with minimal side effects.,8,Positive,User
+Paracetamol,I experienced several side effects after taking this.,1,Negative,Physician
+Losartan,Very effective treatment with minimal side effects.,7,Positive,Physician
+Gabapentin,It worked okay but nothing remarkable.,6,Neutral,Physician
+Cetirizine,I experienced several side effects after taking this.,2,Negative,Physician
+Doxycycline,Average effectiveness for my symptoms.,4,Neutral,Physician
+Levothyroxine,The medication did not help my symptoms.,2,Negative,User
+Metformin,It worked okay but nothing remarkable.,4,Neutral,User
+Sertraline,Did not work well for me.,3,Negative,Physician
+Ciprofloxacin,The drug worked but results were moderate.,6,Neutral,User
+Ciprofloxacin,Symptoms improved significantly after using this drug.,9,Positive,Physician
+Diazepam,Did not work well for me.,2,Negative,Physician
+Omeprazole,Average effectiveness for my symptoms.,4,Neutral,Physician
+Pantoprazole,Doctor recommended this and it helped a lot.,7,Positive,User
+Pantoprazole,It helped slightly but took time to see results.,4,Neutral,User
+Ciprofloxacin,Average effectiveness for my symptoms.,4,Neutral,User
+Ibuprofen,Some improvement but not very significant.,5,Neutral,User
+Cetirizine,The medication did not help my symptoms.,1,Negative,User
+Gabapentin,I experienced several side effects after taking this.,3,Negative,Physician
+Metformin,It worked okay but nothing remarkable.,5,Neutral,Physician
+Levothyroxine,Symptoms improved significantly after using this drug.,8,Positive,User
+Insulin,Did not work well for me.,1,Negative,User
+Diazepam,Symptoms remained the same even after using it.,3,Negative,User
+Escitalopram,Did not work well for me.,3,Negative,Physician
+Diazepam,Some improvement but not very significant.,4,Neutral,User
+Pantoprazole,I experienced several side effects after taking this.,3,Negative,User
+Ibuprofen,I felt better within a few days of starting the medicine.,10,Positive,User
+Paracetamol,Symptoms remained the same even after using it.,3,Negative,Physician
+Azithromycin,It helped slightly but took time to see results.,4,Neutral,User
+Pantoprazole,Symptoms improved significantly after using this drug.,7,Positive,User
+Doxycycline,Average effectiveness for my symptoms.,5,Neutral,Physician
+Escitalopram,The drug worked but results were moderate.,5,Neutral,Physician
+Paracetamol,Doctor recommended this and it helped a lot.,10,Positive,Physician
+Doxycycline,Very effective treatment with minimal side effects.,8,Positive,Physician
+Insulin,I had headaches and nausea while using this drug.,3,Negative,User
+Azithromycin,The medication did not help my symptoms.,2,Negative,User
+Diazepam,It worked okay but nothing remarkable.,5,Neutral,Physician
+Omeprazole,Very effective treatment with minimal side effects.,8,Positive,User
+Atorvastatin,Some improvement but not very significant.,5,Neutral,Physician
+Diazepam,Symptoms improved significantly after using this drug.,9,Positive,User
+Amlodipine,The medication did not help my symptoms.,2,Negative,Physician
+Escitalopram,It worked okay but nothing remarkable.,4,Neutral,User
+Amlodipine,Average effectiveness for my symptoms.,5,Neutral,Physician
+Insulin,The medication did not help my symptoms.,2,Negative,Physician
+Atorvastatin,The medication did not help my symptoms.,1,Negative,Physician
+Cetirizine,Some improvement but not very significant.,6,Neutral,User
+Sertraline,The drug worked but results were moderate.,6,Neutral,User
+Pantoprazole,The medication did not help my symptoms.,2,Negative,Physician
+Amlodipine,Doctor recommended this and it helped a lot.,8,Positive,Physician
+Doxycycline,I experienced several side effects after taking this.,3,Negative,User
+Montelukast,The medication did not help my symptoms.,1,Negative,User
+Diazepam,Symptoms remained the same even after using it.,1,Negative,User
+Sertraline,Symptoms remained the same even after using it.,3,Negative,User
+Metformin,I had headaches and nausea while using this drug.,3,Negative,User
+Paracetamol,Did not work well for me.,3,Negative,Physician
+Metformin,I had headaches and nausea while using this drug.,1,Negative,Physician
+Escitalopram,The medication did not help my symptoms.,3,Negative,User
+Paracetamol,It worked okay but nothing remarkable.,6,Neutral,User
+Ciprofloxacin,Very effective treatment with minimal side effects.,10,Positive,User
+Diazepam,I experienced several side effects after taking this.,2,Negative,User
+Losartan,It worked okay but nothing remarkable.,6,Neutral,User
+Gabapentin,It worked okay but nothing remarkable.,4,Neutral,User
+Gabapentin,Symptoms improved significantly after using this drug.,10,Positive,User
+Montelukast,Doctor recommended this and it helped a lot.,10,Positive,User
+Insulin,Average effectiveness for my symptoms.,4,Neutral,Physician
+Cetirizine,Doctor recommended this and it helped a lot.,9,Positive,User
+Omeprazole,I felt better within a few days of starting the medicine.,10,Positive,Physician
+Azithromycin,I had headaches and nausea while using this drug.,1,Negative,Physician
+Metformin,Some improvement but not very significant.,6,Neutral,User
+Atorvastatin,I had headaches and nausea while using this drug.,3,Negative,Physician
+Levothyroxine,It helped slightly but took time to see results.,4,Neutral,User
+Gabapentin,Did not work well for me.,3,Negative,Physician
+Diazepam,I experienced several side effects after taking this.,3,Negative,User
+Atorvastatin,I felt better within a few days of starting the medicine.,8,Positive,Physician
+Atorvastatin,The drug worked but results were moderate.,5,Neutral,User
+Amlodipine,Doctor recommended this and it helped a lot.,7,Positive,Physician
+Ciprofloxacin,Very effective treatment with minimal side effects.,8,Positive,User
+Insulin,It worked okay but nothing remarkable.,4,Neutral,Physician
+Omeprazole,I felt better within a few days of starting the medicine.,7,Positive,User
+Cetirizine,Symptoms improved significantly after using this drug.,9,Positive,User
+Atorvastatin,The drug worked but results were moderate.,4,Neutral,Physician
+Sertraline,It helped slightly but took time to see results.,6,Neutral,Physician
+Atorvastatin,The medication worked very well for my condition.,7,Positive,Physician
+Paracetamol,I felt better within a few days of starting the medicine.,10,Positive,Physician
+Ciprofloxacin,The medication worked very well for my condition.,10,Positive,User
+Sertraline,Symptoms improved significantly after using this drug.,8,Positive,User
+Escitalopram,Doctor recommended this and it helped a lot.,10,Positive,User
+Atorvastatin,Some improvement but not very significant.,5,Neutral,Physician
+Losartan,The drug worked but results were moderate.,4,Neutral,Physician
+Amlodipine,It worked okay but nothing remarkable.,6,Neutral,User
+Losartan,Did not work well for me.,2,Negative,Physician
+Ciprofloxacin,Doctor recommended this and it helped a lot.,9,Positive,Physician
+Ibuprofen,Symptoms remained the same even after using it.,1,Negative,User
+Omeprazole,It worked okay but nothing remarkable.,4,Neutral,Physician
+Omeprazole,Symptoms remained the same even after using it.,3,Negative,User
+Amoxicillin,Some improvement but not very significant.,5,Neutral,Physician
+Amlodipine,It helped slightly but took time to see results.,5,Neutral,Physician
+Insulin,Doctor recommended this and it helped a lot.,8,Positive,User
+Diazepam,Symptoms remained the same even after using it.,2,Negative,Physician
+Atorvastatin,Average effectiveness for my symptoms.,5,Neutral,User
+Insulin,Symptoms improved significantly after using this drug.,8,Positive,Physician
+Escitalopram,The medication worked very well for my condition.,7,Positive,User
+Ciprofloxacin,The medication did not help my symptoms.,3,Negative,Physician
+Doxycycline,I experienced several side effects after taking this.,2,Negative,Physician
+Pantoprazole,I experienced several side effects after taking this.,2,Negative,User
+Insulin,Did not work well for me.,3,Negative,User
+Gabapentin,Some improvement but not very significant.,4,Neutral,User
+Sertraline,It helped slightly but took time to see results.,5,Neutral,Physician
+Levothyroxine,The medication did not help my symptoms.,2,Negative,User
+Ibuprofen,I felt better within a few days of starting the medicine.,9,Positive,User
+Atorvastatin,Symptoms improved significantly after using this drug.,7,Positive,User
+Sertraline,The medication worked very well for my condition.,9,Positive,Physician
+Gabapentin,I had headaches and nausea while using this drug.,1,Negative,Physician
+Gabapentin,It worked okay but nothing remarkable.,6,Neutral,User
+Diazepam,It helped slightly but took time to see results.,5,Neutral,Physician
+Escitalopram,Did not work well for me.,1,Negative,User
+Omeprazole,The medication did not help my symptoms.,2,Negative,Physician
+Diazepam,Average effectiveness for my symptoms.,6,Neutral,Physician
+Montelukast,The medication did not help my symptoms.,2,Negative,Physician
+Losartan,It helped slightly but took time to see results.,6,Neutral,User
+Amlodipine,Some improvement but not very significant.,6,Neutral,Physician
+Losartan,Very effective treatment with minimal side effects.,10,Positive,User
+Ciprofloxacin,I experienced several side effects after taking this.,3,Negative,User
+Montelukast,Symptoms improved significantly after using this drug.,9,Positive,User
+Paracetamol,I had headaches and nausea while using this drug.,2,Negative,User
+Doxycycline,I experienced several side effects after taking this.,1,Negative,User
+Azithromycin,Symptoms remained the same even after using it.,3,Negative,Physician
+Gabapentin,The medication worked very well for my condition.,10,Positive,Physician
+Amoxicillin,Average effectiveness for my symptoms.,6,Neutral,User
+Escitalopram,Some improvement but not very significant.,5,Neutral,Physician
+Metformin,It worked okay but nothing remarkable.,4,Neutral,User
+Doxycycline,It worked okay but nothing remarkable.,6,Neutral,Physician
+Losartan,I experienced several side effects after taking this.,2,Negative,User
+Azithromycin,I felt better within a few days of starting the medicine.,7,Positive,User
+Escitalopram,Did not work well for me.,2,Negative,Physician
+Gabapentin,I experienced several side effects after taking this.,2,Negative,User
+Azithromycin,I experienced several side effects after taking this.,2,Negative,User
+Azithromycin,The drug worked but results were moderate.,5,Neutral,User
+Amoxicillin,Symptoms improved significantly after using this drug.,9,Positive,Physician
+Paracetamol,Symptoms improved significantly after using this drug.,7,Positive,Physician
+Ibuprofen,It worked okay but nothing remarkable.,5,Neutral,User
+Amlodipine,I experienced several side effects after taking this.,3,Negative,User
+Ciprofloxacin,The drug worked but results were moderate.,4,Neutral,Physician
+Cetirizine,I experienced several side effects after taking this.,3,Negative,User
+Montelukast,Did not work well for me.,3,Negative,Physician
+Ibuprofen,I experienced several side effects after taking this.,2,Negative,Physician
+Losartan,Average effectiveness for my symptoms.,4,Neutral,User
+Ciprofloxacin,Very effective treatment with minimal side effects.,8,Positive,User
+Ciprofloxacin,It helped slightly but took time to see results.,5,Neutral,Physician
+Omeprazole,I felt better within a few days of starting the medicine.,10,Positive,User
+Montelukast,Symptoms remained the same even after using it.,1,Negative,Physician
+Levothyroxine,I had headaches and nausea while using this drug.,1,Negative,Physician
+Paracetamol,I felt better within a few days of starting the medicine.,10,Positive,User
+Diazepam,The medication did not help my symptoms.,1,Negative,User
+Montelukast,It worked okay but nothing remarkable.,4,Neutral,Physician
+Atorvastatin,Symptoms remained the same even after using it.,1,Negative,User
+Escitalopram,Very effective treatment with minimal side effects.,9,Positive,Physician
+Losartan,The drug worked but results were moderate.,4,Neutral,User
+Levothyroxine,I had headaches and nausea while using this drug.,1,Negative,User
+Insulin,Symptoms remained the same even after using it.,1,Negative,Physician
+Omeprazole,The medication did not help my symptoms.,2,Negative,User
+Paracetamol,I had headaches and nausea while using this drug.,1,Negative,User
+Gabapentin,I experienced several side effects after taking this.,2,Negative,Physician
+Omeprazole,It worked okay but nothing remarkable.,5,Neutral,User
+Montelukast,Average effectiveness for my symptoms.,6,Neutral,User
+Metformin,The medication worked very well for my condition.,10,Positive,Physician
+Ibuprofen,It helped slightly but took time to see results.,4,Neutral,User
+Insulin,Some improvement but not very significant.,6,Neutral,User
+Pantoprazole,It worked okay but nothing remarkable.,4,Neutral,User
+Metformin,Symptoms remained the same even after using it.,2,Negative,User
+Gabapentin,Symptoms improved significantly after using this drug.,9,Positive,User
+Losartan,Average effectiveness for my symptoms.,6,Neutral,User
+Montelukast,Very effective treatment with minimal side effects.,8,Positive,Physician
+Diazepam,Doctor recommended this and it helped a lot.,7,Positive,User
+Doxycycline,Doctor recommended this and it helped a lot.,7,Positive,User
+Azithromycin,Doctor recommended this and it helped a lot.,7,Positive,Physician
+Doxycycline,Symptoms remained the same even after using it.,2,Negative,User
+Insulin,Some improvement but not very significant.,4,Neutral,Physician
+Doxycycline,The medication worked very well for my condition.,10,Positive,User
+Omeprazole,The medication worked very well for my condition.,7,Positive,User
+Ciprofloxacin,Doctor recommended this and it helped a lot.,10,Positive,User
+Omeprazole,Did not work well for me.,3,Negative,User
+Montelukast,The drug worked but results were moderate.,6,Neutral,User
+Diazepam,Symptoms remained the same even after using it.,3,Negative,Physician
+Doxycycline,I had headaches and nausea while using this drug.,1,Negative,Physician
