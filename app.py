@@ -74,6 +74,7 @@ if st.sidebar.button("Logout"):
 ollama_url = st.sidebar.text_input("Ollama URL", value="http://localhost:11434")
 ollama_model = st.sidebar.text_input("Ollama Model", value="llama3")
 temperature = st.sidebar.slider("Chat temperature", 0.0, 1.0, 0.2, 0.05)
+st.sidebar.caption("ℹ️ AI Chat (Info Mode) requires Ollama running locally and won't work on the hosted version.")
 
 st.sidebar.markdown("---")
 st.sidebar.caption("Safety note: This tool is for research support, not medical diagnosis.")
@@ -260,6 +261,13 @@ with tabs[1]:
                 base_url=ollama_url,
                 temperature=temperature
             )
+
+            if reply.startswith("Ollama error") or reply.startswith("Ollama connection error"):
+                reply = (
+                    "🤖 AI chat (Ollama) isn't available on this hosted version. "
+                    "This feature works when running the app locally with Ollama installed. "
+                    "You can still use **Review Mode** (Admin) or explore the other tabs."
+                )
 
             st.session_state.chat_messages.append(
                 {"role": "assistant", "content": reply}
