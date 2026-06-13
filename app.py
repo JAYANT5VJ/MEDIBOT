@@ -33,19 +33,32 @@ if not st.session_state.logged_in:
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
 
-    if st.button("Login"):
+    col1, col2 = st.columns(2)
 
-        if username in USERS and USERS[username]["password"] == password:
+    with col1:
+        if st.button("Login", use_container_width=True):
 
+            if username in USERS and USERS[username]["password"] == password:
+
+                st.session_state.logged_in = True
+                st.session_state.username = username
+                st.session_state.role = USERS[username]["role"]
+
+                st.success("Login successful")
+                st.rerun()
+
+            else:
+                st.error("Invalid login")
+
+    with col2:
+        if st.button("Skip Login (Continue as Guest)", use_container_width=True):
             st.session_state.logged_in = True
-            st.session_state.username = username
-            st.session_state.role = USERS[username]["role"]
-
-            st.success("Login successful")
+            st.session_state.username = "Guest"
+            st.session_state.role = "User"
             st.rerun()
 
-        else:
-            st.error("Invalid login")
+    st.caption("Guests can submit reviews and view the dashboard with **User** access. "
+               "Admin/Physician features require logging in.")
 
     st.stop()
 # ---------- Init ----------
