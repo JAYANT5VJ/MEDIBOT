@@ -212,7 +212,7 @@ with tabs[1]:
 
     st.subheader("Drug Assistant Chatbot")
 
-    if st.session_state.role == "Admin":
+    if st.session_state.role in ["Admin", "Guest"]:
         mode = st.radio(
             "Select mode",
             ["Info Mode", "Review Mode"],
@@ -220,7 +220,7 @@ with tabs[1]:
         )
     else:
         mode = "Info Mode"
-        st.info("Review lookup available only for Admin")
+        st.info("Review lookup available only for Admin and Guest users")
 
     # ---------------------
     # CHAT HISTORY
