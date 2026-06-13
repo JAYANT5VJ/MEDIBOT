@@ -212,7 +212,7 @@ with tabs[1]:
 
     st.subheader("Drug Assistant Chatbot")
 
-    if st.session_state.role in ["Admin", "Guest"]:
+    if st.session_state.role == "Admin" or st.session_state.username == "Guest":
         mode = st.radio(
             "Select mode",
             ["Info Mode", "Review Mode"],
