@@ -85,7 +85,7 @@ fallback_drugs = drug_df["drug_name"].dropna().unique().tolist()
 drug_list = top_n_drugs_from_reviews(reviews_df, fallback_drugs, n=30)
 
 # ---------- Sidebar ----------
-st.sidebar.title("⚙️ Settings")
+st.sidebar.title("Settings")
 # ==========================
 # USER INFO
 # ==========================
@@ -101,7 +101,7 @@ if st.sidebar.button("Logout"):
     st.rerun()
 groq_model = st.sidebar.selectbox("AI Model", ["llama-3.1-8b-instant", "llama-3.3-70b-versatile", "mixtral-8x7b-32768"], index=0)
 temperature = st.sidebar.slider("Chat temperature", 0.0, 1.0, 0.2, 0.05)
-st.sidebar.caption("ℹ️ AI Chat powered by Groq — works on both local and hosted versions.")
+st.sidebar.caption("AI Chat powered by Groq — works on both local and hosted versions.")
 
 st.sidebar.markdown("---")
 st.sidebar.caption("Safety note: This tool is for research support, not medical diagnosis.")
@@ -149,9 +149,9 @@ def plot_review_counts(df: pd.DataFrame, top_n: int = 10):
     plot_bar(cnt, f"Review Counts (Top {top_n})", "Drug", "Count")
 
 # ---------- Title ----------
-st.title("🧪Drug Information + Review Analytics Chatbot (Streamlit + Ollama + VADER + ML)")
+st.title("Drug Information + Review Analytics Chatbot (Streamlit + Ollama + VADER + ML)")
 
-tabs = st.tabs(["🏠 Home Dashboard", "🤖 Chatbot", "🧠 ML Training", "🗃️ Review Database"])
+tabs = st.tabs(["Home Dashboard", "Chatbot", "ML Training", "Review Database"])
 
 # =======================
 # TAB 1: HOME DASHBOARD
@@ -172,7 +172,7 @@ with tabs[0]:
 
         colA, colB = st.columns(2)
         with colA:
-            if st.button("✅ Submit Review", use_container_width=True):
+            if st.button("Submit Review", use_container_width=True):
                 if not drug_name or drug_name.startswith("("):
                     st.error("Please select a valid drug.")
                 elif not review_text.strip():
@@ -188,7 +188,7 @@ with tabs[0]:
                         sentiment_label=label,
                         created_at_iso=datetime.now(timezone.utc).isoformat()
                     )
-                    st.success(f"Stored review ✅  Sentiment: **{label}** (compound={score:.3f})")
+                    st.success(f"Stored review Sentiment: **{label}** (compound={score:.3f})")
                     st.rerun()
 
         with colB:
@@ -291,7 +291,7 @@ with tabs[1]:
 
             if reply.startswith("Groq error") or reply.startswith("Groq connection error") or reply.startswith("Groq API key not found"):
                 reply = (
-                    "🤖 AI chat isn't available right now. "
+                    "AI chat isn't available right now. "
                     "Please check your GROQ_API_KEY is set correctly."
                 )
 
@@ -414,7 +414,7 @@ with tabs[1]:
                             hide_index=True
                         )
 
-    if st.button("🧹 Clear Chat"):
+    if st.button("Clear Chat"):
         st.session_state.chat_messages = []
         st.rerun()
 
@@ -425,7 +425,7 @@ with tabs[2]:
 
     # Admin restriction
     if st.session_state.role != "Admin":
-        st.warning("⚠️ Only Admin can access ML training.")
+        st.warning("Only Admin can access ML training.")
         st.stop()
 
 
@@ -458,11 +458,11 @@ with tabs[2]:
             label_col = st.selectbox("Label column", options=train_df.columns.tolist(), index=min(1, len(train_df.columns)-1))
 
         st.markdown("---")
-        if st.button("🏋️ Train Model", use_container_width=True):
+        if st.button("Train Model", use_container_width=True):
             try:
                 res = train_text_model(train_df, text_col=text_col, label_col=label_col)
                 st.session_state.trained_model = res.model
-                st.success(f"Trained ✅ Accuracy: {res.accuracy:.3f}")
+                st.success(f"Trained Accuracy: {res.accuracy:.3f}")
                 st.text("Classification report:\n" + res.report)
                 st.write("Confusion matrix:", res.confusion)
             except Exception as e:
@@ -470,7 +470,7 @@ with tabs[2]:
 
         st.markdown("### Predict with trained model")
         test_text = st.text_area("Enter a review to predict", height=120)
-        if st.button("🔮 Predict", use_container_width=True):
+        if st.button("Predict", use_container_width=True):
             if "trained_model" not in st.session_state:
                 st.error("Train a model first.")
             elif not test_text.strip():
@@ -507,13 +507,13 @@ with tabs[3]:
 
         c1, c2 = st.columns(2)
         with c1:
-            if st.button("💾 Save Update", use_container_width=True):
+            if st.button("Save Update", use_container_width=True):
                 score, label, _ = vader_sentiment(new_text)
                 update_review(selected_id, new_text.strip(), score, label)
-                st.success(f"Updated ✅ New sentiment: **{label}** (compound={score:.3f})")
+                st.success(f"Updated New sentiment: **{label}** (compound={score:.3f})")
                 st.rerun()
         with c2:
-            if st.button("🗑️ Delete Review", use_container_width=True):
+            if st.button(" Delete Review", use_container_width=True):
                 delete_review(int(selected_id))
-                st.success("Deleted ✅")
+                st.success("Deleted ")
                 st.rerun()
