@@ -3,14 +3,16 @@ import requests
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-def groq_chat(messages, model="llama3-8b-8192", temperature=0.2):
-    api_key = os.environ.get("GROQ_API_KEY", "")
+def groq_chat(messages, model="llama3-8b-8192", temperature=0.2, api_key=None):
 
-    if not api_key:
-        return "Groq API key not found. Please set GROQ_API_KEY in your environment or Streamlit secrets."
+    # Use passed key, then env var
+    key = api_key or os.environ.get("GROQ_API_KEY", "")
+
+    if not key:
+        return "Groq API key not found. Please set GROQ_API_KEY."
 
     headers = {
-        "Authorization": f"Bearer {api_key}",
+        "Authorization": f"Bearer {key}",
         "Content-Type": "application/json"
     }
 

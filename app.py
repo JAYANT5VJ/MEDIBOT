@@ -13,8 +13,11 @@ except ImportError:
     pass
 
 # Load Groq API key from Streamlit secrets (cloud) or .env (local)
-if "GROQ_API_KEY" in st.secrets:
-    os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+GROQ_API_KEY = ""
+try:
+    GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+except Exception:
+    GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
 from db import init_db, insert_review, load_reviews_df, delete_review, update_review
 from sentiment import vader_sentiment
@@ -282,7 +285,8 @@ with tabs[1]:
             reply = groq_chat(
                 messages=messages,
                 model=groq_model,
-                temperature=temperature
+                temperature=temperature,
+                api_key=GROQ_API_KEY
             )
 
             if reply.startswith("Groq error") or reply.startswith("Groq connection error") or reply.startswith("Groq API key not found"):
