@@ -322,7 +322,7 @@ with tabs[1]:
             else:
 
                 matched_reviews = reviews_df[
-                    reviews_df["drug_name"].astype(str).str.lower() == query
+                    reviews_df["drug_name"].astype(str).str.lower().str.contains(query, na=False)
                 ]
 
                 if matched_reviews.empty:
