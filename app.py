@@ -290,10 +290,7 @@ with tabs[1]:
             )
 
             if reply.startswith("Groq error") or reply.startswith("Groq connection error") or reply.startswith("Groq API key not found"):
-                reply = (
-                    "🤖 AI chat isn't available right now. "
-                    "Please check your GROQ_API_KEY is set correctly."
-                )
+                reply = f"🤖 Debug info: {reply}"
 
             st.session_state.chat_messages.append(
                 {"role": "assistant", "content": reply}
