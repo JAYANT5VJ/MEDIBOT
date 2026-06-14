@@ -3,7 +3,7 @@ import requests
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
-def groq_chat(messages, model="llama3-8b-8192", temperature=0.2, api_key=None):
+def groq_chat(messages, model="llama-3.1-8b-instant", temperature=0.2, api_key=None):
 
     # Use passed key, then env var
     key = api_key or os.environ.get("GROQ_API_KEY", "")

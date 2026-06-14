@@ -99,7 +99,7 @@ st.sidebar.write("Role:", st.session_state.role)
 if st.sidebar.button("Logout"):
     st.session_state.logged_in = False
     st.rerun()
-groq_model = st.sidebar.selectbox("AI Model", ["llama3-8b-8192", "llama3-70b-8192", "mixtral-8x7b-32768"], index=0)
+groq_model = st.sidebar.selectbox("AI Model", ["llama-3.1-8b-instant", "llama-3.3-70b-versatile", "mixtral-8x7b-32768"], index=0)
 temperature = st.sidebar.slider("Chat temperature", 0.0, 1.0, 0.2, 0.05)
 st.sidebar.caption("ℹ️ AI Chat powered by Groq — works on both local and hosted versions.")
 
@@ -290,7 +290,10 @@ with tabs[1]:
             )
 
             if reply.startswith("Groq error") or reply.startswith("Groq connection error") or reply.startswith("Groq API key not found"):
-                reply = f"🤖 Debug info: {reply}"
+                reply = (
+                    "🤖 AI chat isn't available right now. "
+                    "Please check your GROQ_API_KEY is set correctly."
+                )
 
             st.session_state.chat_messages.append(
                 {"role": "assistant", "content": reply}
