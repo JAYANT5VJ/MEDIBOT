@@ -277,7 +277,7 @@ with tabs[1]:
 
             if reply.startswith("Ollama error") or reply.startswith("Ollama connection error"):
                 reply = (
-                    "🤖 AI chat (Ollama) isn't available on this hosted version. "
+                    "AI chat (Ollama) isn't available on this hosted version. "
                     "This feature works when running the app locally with Ollama installed. "
                     "You can still use **Review Mode** (Admin) or explore the other tabs."
                 )
@@ -401,7 +401,7 @@ with tabs[1]:
                             hide_index=True
                         )
 
-    if st.button("🧹 Clear Chat"):
+    if st.button("Clear Chat"):
         st.session_state.chat_messages = []
         st.rerun()
 
