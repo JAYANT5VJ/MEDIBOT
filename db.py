@@ -11,11 +11,38 @@ def _connect():
 def init_db():
     con = _connect()
     cur = con.cursor()
+
+    # Check if table exists with old role constraint and migrate if needed
+    cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='drug_reviews'")
+    if cur.fetchone():
+        try:
+            cur.execute("INSERT INTO drug_reviews (drug_name, role, review_text, sentiment_score, sentiment_label, created_at) VALUES ('_test','Admin','_test',0,'Neutral','2024-01-01')")
+            cur.execute("DELETE FROM drug_reviews WHERE drug_name='_test'")
+            con.commit()
+        except Exception:
+            # Old constraint blocks Admin/Guest — recreate without it
+            cur.execute("ALTER TABLE drug_reviews RENAME TO drug_reviews_old")
+            cur.execute("""
+            CREATE TABLE drug_reviews (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                drug_name TEXT NOT NULL,
+                role TEXT NOT NULL,
+                reviewer_name TEXT,
+                review_text TEXT NOT NULL,
+                sentiment_score REAL NOT NULL,
+                sentiment_label TEXT NOT NULL,
+                created_at TEXT NOT NULL
+            )
+            """)
+            cur.execute("INSERT INTO drug_reviews SELECT * FROM drug_reviews_old")
+            cur.execute("DROP TABLE drug_reviews_old")
+            con.commit()
+
     cur.execute("""
     CREATE TABLE IF NOT EXISTS drug_reviews (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         drug_name TEXT NOT NULL,
-        role TEXT NOT NULL CHECK(role IN ('User', 'Physician')),
+        role TEXT NOT NULL,
         reviewer_name TEXT,
         review_text TEXT NOT NULL,
         sentiment_score REAL NOT NULL,
