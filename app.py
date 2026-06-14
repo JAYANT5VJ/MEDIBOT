@@ -3,11 +3,23 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime, timezone
+import os
+
+# Load .env for local development
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+# Load Groq API key from Streamlit secrets (cloud) or .env (local)
+if "GROQ_API_KEY" in st.secrets:
+    os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
 
 from db import init_db, insert_review, load_reviews_df, delete_review, update_review
 from sentiment import vader_sentiment
 from utils import load_drug_info, top_n_drugs_from_reviews
-from ollama_client import ollama_chat
+from groq_client import groq_chat
 from ml import train_text_model, predict_text
 
 st.set_page_config(page_title="Drug Review Chatbot", layout="wide")
@@ -70,7 +82,7 @@ fallback_drugs = drug_df["drug_name"].dropna().unique().tolist()
 drug_list = top_n_drugs_from_reviews(reviews_df, fallback_drugs, n=30)
 
 # ---------- Sidebar ----------
-st.sidebar.title("Settings")
+st.sidebar.title("⚙️ Settings")
 # ==========================
 # USER INFO
 # ==========================
@@ -84,10 +96,9 @@ st.sidebar.write("Role:", st.session_state.role)
 if st.sidebar.button("Logout"):
     st.session_state.logged_in = False
     st.rerun()
-ollama_url = st.sidebar.text_input("Ollama URL", value="http://localhost:11434")
-ollama_model = st.sidebar.text_input("Ollama Model", value="llama3")
+groq_model = st.sidebar.selectbox("AI Model", ["llama3-8b-8192", "llama3-70b-8192", "mixtral-8x7b-32768"], index=0)
 temperature = st.sidebar.slider("Chat temperature", 0.0, 1.0, 0.2, 0.05)
-st.sidebar.caption("AI Chat (Info Mode) requires Ollama running locally and won't work on the hosted version.")
+st.sidebar.caption("ℹ️ AI Chat powered by Groq — works on both local and hosted versions.")
 
 st.sidebar.markdown("---")
 st.sidebar.caption("Safety note: This tool is for research support, not medical diagnosis.")
@@ -135,9 +146,9 @@ def plot_review_counts(df: pd.DataFrame, top_n: int = 10):
     plot_bar(cnt, f"Review Counts (Top {top_n})", "Drug", "Count")
 
 # ---------- Title ----------
-st.title("Drug Information + Review Analytics Chatbot (Streamlit + Ollama + VADER + ML)")
+st.title("🧪Drug Information + Review Analytics Chatbot (Streamlit + Ollama + VADER + ML)")
 
-tabs = st.tabs(["Home Dashboard", "Chatbot", "ML Training", "Review Database"])
+tabs = st.tabs(["🏠 Home Dashboard", "🤖 Chatbot", "🧠 ML Training", "🗃️ Review Database"])
 
 # =======================
 # TAB 1: HOME DASHBOARD
@@ -158,7 +169,7 @@ with tabs[0]:
 
         colA, colB = st.columns(2)
         with colA:
-            if st.button("Submit Review", use_container_width=True):
+            if st.button("✅ Submit Review", use_container_width=True):
                 if not drug_name or drug_name.startswith("("):
                     st.error("Please select a valid drug.")
                 elif not review_text.strip():
@@ -174,7 +185,7 @@ with tabs[0]:
                         sentiment_label=label,
                         created_at_iso=datetime.now(timezone.utc).isoformat()
                     )
-                    st.success(f"Stored review Sentiment: **{label}** (compound={score:.3f})")
+                    st.success(f"Stored review ✅  Sentiment: **{label}** (compound={score:.3f})")
                     st.rerun()
 
         with colB:
@@ -268,18 +279,16 @@ with tabs[1]:
                 {"role": "user", "content": user_msg}
             ]
 
-            reply = ollama_chat(
-                model=ollama_model,
+            reply = groq_chat(
                 messages=messages,
-                base_url=ollama_url,
+                model=groq_model,
                 temperature=temperature
             )
 
-            if reply.startswith("Ollama error") or reply.startswith("Ollama connection error"):
+            if reply.startswith("Groq error") or reply.startswith("Groq connection error") or reply.startswith("Groq API key not found"):
                 reply = (
-                    "AI chat (Ollama) isn't available on this hosted version. "
-                    "This feature works when running the app locally with Ollama installed. "
-                    "You can still use **Review Mode** (Admin) or explore the other tabs."
+                    "🤖 AI chat isn't available right now. "
+                    "Please check your GROQ_API_KEY is set correctly."
                 )
 
             st.session_state.chat_messages.append(
@@ -401,7 +410,7 @@ with tabs[1]:
                             hide_index=True
                         )
 
-    if st.button("Clear Chat"):
+    if st.button("🧹 Clear Chat"):
         st.session_state.chat_messages = []
         st.rerun()
 
@@ -412,7 +421,7 @@ with tabs[2]:
 
     # Admin restriction
     if st.session_state.role != "Admin":
-        st.warning("Only Admin can access ML training.")
+        st.warning("⚠️ Only Admin can access ML training.")
         st.stop()
 
 
@@ -445,11 +454,11 @@ with tabs[2]:
             label_col = st.selectbox("Label column", options=train_df.columns.tolist(), index=min(1, len(train_df.columns)-1))
 
         st.markdown("---")
-        if st.button("Train Model", use_container_width=True):
+        if st.button("🏋️ Train Model", use_container_width=True):
             try:
                 res = train_text_model(train_df, text_col=text_col, label_col=label_col)
                 st.session_state.trained_model = res.model
-                st.success(f"Trained Accuracy: {res.accuracy:.3f}")
+                st.success(f"Trained ✅ Accuracy: {res.accuracy:.3f}")
                 st.text("Classification report:\n" + res.report)
                 st.write("Confusion matrix:", res.confusion)
             except Exception as e:
@@ -457,7 +466,7 @@ with tabs[2]:
 
         st.markdown("### Predict with trained model")
         test_text = st.text_area("Enter a review to predict", height=120)
-        if st.button("Predict", use_container_width=True):
+        if st.button("🔮 Predict", use_container_width=True):
             if "trained_model" not in st.session_state:
                 st.error("Train a model first.")
             elif not test_text.strip():
@@ -494,13 +503,13 @@ with tabs[3]:
 
         c1, c2 = st.columns(2)
         with c1:
-            if st.button("Save Update", use_container_width=True):
+            if st.button("💾 Save Update", use_container_width=True):
                 score, label, _ = vader_sentiment(new_text)
                 update_review(selected_id, new_text.strip(), score, label)
-                st.success(f"Updated New sentiment: **{label}** (compound={score:.3f})")
+                st.success(f"Updated ✅ New sentiment: **{label}** (compound={score:.3f})")
                 st.rerun()
         with c2:
             if st.button("🗑️ Delete Review", use_container_width=True):
                 delete_review(int(selected_id))
-                st.success("Deleted")
+                st.success("Deleted ✅")
                 st.rerun()
